@@ -1,0 +1,39 @@
+michelkadi@mss-MacBook jquery % touch index.html
+michelkadi@mss-MacBook jquery % echo "# eventjs" >> README.md
+michelkadi@mss-MacBook jquery % git init
+Initialized empty Git repository in /Users/michelkadi/Desktop/jquery/.git/
+michelkadi@mss-MacBook jquery % git add README.md
+michelkadi@mss-MacBook jquery % git commit -m "first commit"
+[master (root-commit) ca7e529] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+michelkadi@mss-MacBook jquery % git add index.html
+michelkadi@mss-MacBook jquery % git commit -m"jose"
+[master 63a158e] jose
+ 1 file changed, 17 insertions(+)
+ create mode 100644 index.html
+michelkadi@mss-MacBook jquery % git branch -M main
+michelkadi@mss-MacBook jquery % git remote add origin https://github.com/johnalain/eventjs.git
+michelkadi@mss-MacBook jquery % git push -u origin main
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 712 bytes | 712.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/johnalain/eventjs.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+michelkadi@mss-MacBook jquery % git add index.html
+michelkadi@mss-MacBook jquery % git commit -m"ritajose"
+[main f5fde17] ritajose
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+michelkadi@mss-MacBook jquery % git push origin main
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/johnalain/eventjs.git
+   63a158e..f5fde17  main -> main
+michelkadi@mss-MacBook jquery % 
