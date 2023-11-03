@@ -9,8 +9,13 @@ $(document).ready(function () {
   //fade out after the timer expired then perform show()action of span
 
   //
+//   $("button").click(function () {
+//     $("p").hide(3000, alert("paragraph is hidden"));
+//     $("button").css("color", "#f00");
+//   });
+
   $("button").click(function () {
-    $("p").hide(3000, alert("paragraph is hidden"));
-    $("button").css("color","#f00")
+    $("p").toggle(20000, alert("paragraph is hidden"));
+    $("button").hide(2000);
   });
 });
