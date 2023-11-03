@@ -13,6 +13,7 @@ $(document).ready(function () {
 //     $("p").hide(3000, alert("paragraph is hidden"));
 //     $("button").css("color", "#f00");
 //   });
+// speed and callback function aplicable to hide show and toggle
 
   $("button").click(function () {
     $("p").toggle(20000, alert("paragraph is hidden"));
