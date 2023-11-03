@@ -8,6 +8,12 @@ div{
 button{
     margin: 10px;
 }
+span{
+    display: none;
+}
+p{
+    display: none;
+}
 
 
 

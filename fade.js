@@ -15,8 +15,13 @@ $(document).ready(function () {
 //   });
 // speed and callback function aplicable to hide show and toggle
 
+//   $("button").click(function () {
+//     $("p").toggle(20000, alert("paragraph is hidden"));
+//     $("button").hide(2000);
+//   });
+
   $("button").click(function () {
-    $("p").toggle(20000, alert("paragraph is hidden"));
-    $("button").hide(2000);
+    $("p").toggle(2000, function(){$("span").toggle(2000)});
+    
   });
 });
